@@ -1,0 +1,13 @@
+# Question 2
+number = int(input("Enter a number:"))
+if number > 0:
+  print("Positive")
+elif number < 0:
+  print("Negative")
+elif number == 0: 
+  print("Zero")
+
+# Question 3
+number = int(input("Enter a number:"))
+if number < 10 and number > -10:
+  print("Success")
